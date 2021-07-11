@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.nev{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+.logo{
+    width: 140px;
+    height: auto;
+    padding: 20px 100px ;
+}
+.nev ul{
+    float: right;
+    margin-right: 20px;
+}
+.nev ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+
+}
+.nev ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 6px 14px;
+    font-size: 20px;
+    font-family: 'roboto', sans-serif;
+    transition: .4s;
+}
+.nev ul li a.active,
+.nev ul li a:hover{
+    background: tomato;
+    border-radius: 2px;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+
+}
+.center h1{
+    color: white;
+    font-size: 65px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.center h2{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    width: 800px;
+    padding-left: 50px;
+    margin-top: 8px;
+    text-align: center;
+}
+.center .buttons{
+    margin: 35px 290px;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: tomato;
+    border: 1px solid #cc0000;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: .4s;
+
+}
+.buttons .btn{
+    margin-left: 10px;
+}
+.buttons button:hover{
+    background: lightcoral;
+}
